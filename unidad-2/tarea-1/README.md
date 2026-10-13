@@ -172,7 +172,7 @@ git/
                         └── Main.java
 ```
 
-El fichero `Main.java` se creará en el **Paso 2**. Si IntelliJ IDEA utiliza un paquete (por ejemplo `es.dam`), coloca la clase dentro de ese paquete y conserva la estructura correspondiente. No hace falta reproducir literalmente el árbol anterior si usas paquetes Java.
+El fichero `Tickets2.java` se creará en el **Paso 2**. Si IntelliJ IDEA utiliza un paquete (por ejemplo `es.dam`), coloca la clase dentro de ese paquete y conserva la estructura correspondiente. No hace falta reproducir literalmente el árbol anterior si usas paquetes Java.
 
 
 ## 1.8. Actualizar el índice de tareas de la unidad
@@ -274,7 +274,7 @@ En esta primera tarea puedes suponer que se introducen **cantidades positivas y 
 1. Abre el proyecto Maven `tarea1`.
 2. En el panel **Project**, localiza `src/main/java`.
 3. Haz clic derecho sobre `java` (o sobre tu paquete) → **New → Java Class**.
-4. Escribe `Main` y comprueba que se crea `Main.java`.
+4. Escribe `Main` y comprueba que se crea `Tickets2.java`.
 5. Incorpora el método `main`. Puedes comenzar con este esqueleto, **sin solución completa**:
 
 ```java
@@ -333,7 +333,7 @@ git push origin main
 
 ## 2.8. Ejecutar y realizar las pruebas
 
-En IntelliJ IDEA, abre `Main.java` y selecciona **Run 'Main.main()'**. Comprueba estas pruebas:
+En IntelliJ IDEA, abre `Tickets2.java` y selecciona **Run 'Main.main()'**. Comprueba estas pruebas:
 
 | Prueba | Entrada | Total esperado |
 |---|---|---|
@@ -477,7 +477,7 @@ Sustituye `TU_USUARIO` por tu usuario real de GitHub.
 El profesor revisará:
 
 - La estructura Maven y el archivo `pom.xml`.
-- El código fuente de `Main.java` y su funcionamiento.
+- El código fuente de `Tickets2.java` y su funcionamiento.
 - El `README.md` de la tarea, que debe conservar el enunciado y añadir tus pruebas.
 - El índice actualizado en `unidad-02/README.md`.
 - El historial de commits, que debe mostrar trabajo progresivo.
