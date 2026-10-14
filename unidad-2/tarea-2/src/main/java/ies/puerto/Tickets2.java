@@ -67,6 +67,7 @@ public class Tickets2 {
                 System.out.println("Usuario:" +nombre);
                 System.out.println("Numero de conversiones:" + contador );
                 System.out.println("Gracias por usar DAM-PRO");
+                return;
 
             }
 
