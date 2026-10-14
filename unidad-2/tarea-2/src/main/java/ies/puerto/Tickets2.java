@@ -28,6 +28,7 @@ public class Tickets2 {
         double resultado = 0;
         System.out.println("Introduce tu nombre");
         String nombre = scanner.nextLine();
+        int contador = 0;
 
 
         while (opcion != 4) {
@@ -44,6 +45,7 @@ public class Tickets2 {
 
                 resultado = kmAMetros(valor);
                 System.out.println("Metros=" + resultado);
+                contador++;
             }
             if (opcion == 2) {
                 System.out.println("Ingresa el valor");
@@ -51,6 +53,7 @@ public class Tickets2 {
 
                 resultado = metrosACentimetros(valor);
                 System.out.println("Centimetros=" + resultado);
+                contador++;
             }
             if (opcion == 3) {
                 System.out.println("Ingresa el valor");
@@ -58,9 +61,12 @@ public class Tickets2 {
 
                 resultado = kmAMillas(valor);
                 System.out.println("Millas=" + resultado);
+                contador++;
             }
             if (opcion == 4) {
-                System.out.println("Gracias por usar DAM-PRO, " + nombre);
+                System.out.println("Usuario:" +nombre);
+                System.out.println("Numero de conversiones:" + contador );
+                System.out.println("Gracias por usar DAM-PRO");
 
             }
 
