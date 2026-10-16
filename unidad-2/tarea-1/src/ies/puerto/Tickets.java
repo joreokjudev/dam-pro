@@ -28,7 +28,7 @@ public class Tickets {
             suma = suma + precioProducto;
         }
         teclado.close();
-        System.out.println("Gracias por tu compra,"+ nombre +", tu total es de " + suma+" euros");
+        System.out.println("Gracias por tu compra,"+ nombre +", tu total es dells " + suma+" euros");
 
     }
 }
