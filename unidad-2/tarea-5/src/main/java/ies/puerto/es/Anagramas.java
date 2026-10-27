@@ -17,7 +17,7 @@ public class Anagramas {
         System.out.println("Introduce la segunda palabra:");
         String sPalabra2 = teclado.nextLine();
         boolean bAnagrama = esAnagrama(sPalabra1, sPalabra2);
-        System.out.println("Las palbras son Anagramas="+bAnagrama);
+        System.out.println("Las palabras son Anagramas="+bAnagrama);
     }
 
     /**
@@ -35,8 +35,8 @@ public class Anagramas {
         }
         palabra1 = palabra1.toLowerCase();
         palabra2 = palabra2.toLowerCase();
-        palabra1 = palabra1.replace("", "");
-        palabra2 = palabra2.replace("", "");
+        palabra1 = palabra1.replace(" ", "");
+        palabra2 = palabra2.replace(" ", "");
 
         if (palabra1.length() != palabra2.length()) {
             return false;
