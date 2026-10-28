@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ClaveSecreta {
     static void main() {
-        //o O = 0
+        // o O = 0
         // i I = 2
         // u U = 3
         // e E = *
@@ -17,7 +17,7 @@ public class ClaveSecreta {
     }
 
     /**
-     *  Genera
+     *  Genera una clave cambiando las letras puestas por otros caracteres
      * @param sPalabra
      * @return
      */
@@ -28,17 +28,17 @@ public class ClaveSecreta {
         if (sPalabra == null || sPalabra.isEmpty()) {
             return "";
         }
-        sPalabra.replace("a", "?");
-        sPalabra.replace("A", "?");
-        sPalabra.replace("o", "0");
-        sPalabra.replace("O", "0");
-        sPalabra.replace("i", "2");
-        sPalabra.replace("I", "2");
-        sPalabra.replace("e", "*");
-        sPalabra.replace("E", "*");
-        sPalabra.replace("u", "3");
-        sPalabra.replace("U", "3");
+        sPalabra = sPalabra.replace("a", "?");
+        sPalabra = sPalabra.replace("A", "?");
+        sPalabra = sPalabra.replace("o", "0");
+        sPalabra = sPalabra.replace("O", "0");
+        sPalabra = sPalabra.replace("i", "2");
+        sPalabra = sPalabra.replace("I", "2");
+        sPalabra = sPalabra.replace("e", "*");
+        sPalabra = sPalabra.replace("E", "*");
+        sPalabra = sPalabra.replace("u", "3");
+        sPalabra = sPalabra.replace("U", "3");
 
-        return clave;
+        return sPalabra;
     }
 }
