@@ -7,7 +7,7 @@
     <list default="true" id="109e8d59-e111-437d-803c-404f761d870f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../tarea-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tarea-2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tarea-4/src/main/java/ies/puerto/es/GestorCalificaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tarea-4/src/main/java/ies/puerto/es/GestorCalificaciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/dampro/unidad2/tarea7/AnalizadorFecha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dampro/unidad2/tarea7/AnalizadorFecha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/dampro/unidad2/tarea7/CalculadoraEdad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dampro/unidad2/tarea7/CalculadoraEdad.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,7 @@
   "keyToString": {
     "Application.AnalizadorFecha.executor": "Run",
     "JUnit.AnalizadorFechaTest.executor": "Run",
+    "JUnit.CalculadoraEdadTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -42,7 +43,7 @@
     "onboarding.tips.debug.path": "/home/alumno/git/dam-pro/unidad-2/tarea-7/src/main/java/ies/puerto/es/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AnalizadorFechaTest">
+  <component name="RunManager" selected="JUnit.CalculadoraEdadTest">
     <configuration name="AnalizadorFecha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="es.dampro.unidad2.tarea7.AnalizadorFecha" />
       <module name="tarea-7" />
@@ -71,8 +72,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculadoraEdadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tarea-7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.dampro.unidad2.tarea7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.dampro.unidad2.tarea7" />
+      <option name="MAIN_CLASS_NAME" value="es.dampro.unidad2.tarea7.CalculadoraEdadTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraEdadTest" />
         <item itemvalue="JUnit.AnalizadorFechaTest" />
         <item itemvalue="Application.AnalizadorFecha" />
       </list>
