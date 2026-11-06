@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="109e8d59-e111-437d-803c-404f761d870f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../tarea-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tarea-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tarea-4/src/main/java/ies/puerto/es/GestorCalificaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tarea-4/src/main/java/ies/puerto/es/GestorCalificaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/dampro/unidad2/tarea7/AnalizadorFecha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dampro/unidad2/tarea7/AnalizadorFecha.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LjmprEq0cdgvufbvj0O2ub6VyU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnalizadorFecha.executor": "Run",
+    "JUnit.AnalizadorFechaTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alumno/git/dam-pro/unidad-2",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/alumno/git/dam-pro/unidad-2/tarea-7/src/main/java/ies/puerto/es/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.AnalizadorFechaTest">
+    <configuration name="AnalizadorFecha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.dampro.unidad2.tarea7.AnalizadorFecha" />
+      <module name="tarea-7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.dampro.unidad2.tarea7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnalizadorFechaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tarea-7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.dampro.unidad2.tarea7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.dampro.unidad2.tarea7" />
+      <option name="MAIN_CLASS_NAME" value="es.dampro.unidad2.tarea7.AnalizadorFechaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AnalizadorFechaTest" />
+        <item itemvalue="Application.AnalizadorFecha" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="109e8d59-e111-437d-803c-404f761d870f" name="Changes" comment="" />
+      <created>1793976038937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793976038937</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ies/puerto/es/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
