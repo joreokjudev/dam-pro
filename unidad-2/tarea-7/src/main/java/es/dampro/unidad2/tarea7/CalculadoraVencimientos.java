@@ -5,25 +5,38 @@ import java.time.format.*;
 import java.time.temporal.ChronoUnit;
 
 /**
- * TODO: Describe la finalidad de CalculadoraVencimientos.
+ * Calcular la fecha de vencimiento
  *
- * @author
- * @version
+ * @author joreokjudev
+ * @version 1.0.0
  */
 public final class CalculadoraVencimientos {
-    private CalculadoraVencimientos() { }
+
+
+    public static void main(String[] args) {
+        System.out.println("Pon la fecha que quieras saber cuando se vence:");
+        LocalDate calcularVencimiento;
+        System.out.println("La fecha de vencimiento es:" +calcularVencimiento);
+    }
 
     /**
-     * TODO: Describe lo que hace el método.
+     * Funcion para calcular el vencimiento de una fecha
      *
-     * @param fecha
-     * @param dias
-     * @param meses
-     * @param anios
-     * @return
+     * @param fecha Fecha inicial
+     * @param dias Numero de dias a sumar
+     * @param meses Numero de meses a sumar
+     * @param anios Numero de años sumar
+     * @return LocalDate con la fecha de vencimiento calculada
      */
     public static LocalDate calcularVencimiento(LocalDate fecha, int dias, int meses, int anios) {
-        // TODO: Implementa el algoritmo según el enunciado.
-        return LocalDate.MIN;
+        if (fecha == null) {
+            return LocalDate.MIN;
+        }
+        LocalDate resultado = fecha.plusYears(anios);
+
+        resultado = resultado.plusMonths(meses);
+
+        resultado = resultado.plusDays(dias);
+        return resultado;
     }
 }
