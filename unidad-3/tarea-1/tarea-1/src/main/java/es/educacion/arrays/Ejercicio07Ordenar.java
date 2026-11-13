@@ -20,7 +20,7 @@ public final class Ejercicio07Ordenar {
      * Funcion que devuelve una copia del array con sus elementos ordenados de menor a mayor
      * @param numeros int[] de enteros
      * @return int[] nuevo y ordenado
-     * @throws IllegalArgumentException si el array es nulo
+     * @exception IllegalArgumentException si el array es nulo
      */
     public static int[] ordenar(int[] numeros) {
         if (numeros == null) {

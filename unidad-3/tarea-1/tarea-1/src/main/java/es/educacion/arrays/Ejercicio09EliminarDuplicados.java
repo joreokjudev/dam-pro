@@ -18,33 +18,32 @@ public final class Ejercicio09EliminarDuplicados {
 
     /**
      * Devuelve un nuevo array con una sola aparicion de cada valor, en el orden original
-     *
      * @param numeros int[] de enteros que puede tener valores repetidos
      * @return int[] sin valores repetidos
-     * @throws IllegalArgumentException si el array es nulo
+     * @exception IllegalArgumentException si el array es nulo
      */
     public static int[] sinDuplicados(int[] numeros) {
-        if (numeros == null) {
+        if (numeros == null || numeros.length == 0) {
             throw new IllegalArgumentException("El array es nulo");
         }
 
-        int[] unicos = new int[numeros.length];
+        int[] numerosUnicos = new int[numeros.length];
         int cantidad = 0;
 
         for (int numero:numeros) {
             boolean repetido = false;
 
             for (int i = 0; i < cantidad; i++) {
-                if (unicos[i] == numero) {
+                if (numerosUnicos[i] == numero) {
                     repetido = true;
                 }
             }
 
             if (!repetido) {
-                unicos[cantidad] = numero;
+                numerosUnicos[cantidad] = numero;
                 cantidad++;
             }
         }
-        return Arrays.copyOf(unicos, cantidad);
+        return Arrays.copyOf(numerosUnicos, cantidad);
     }
 }
