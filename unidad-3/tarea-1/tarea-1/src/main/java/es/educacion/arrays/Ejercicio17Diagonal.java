@@ -1,12 +1,30 @@
 package es.educacion.arrays;
 
-// Ejercicio 17. Suma diagonal principal de una matriz cuadrada, incluida la matriz 0x0. Si matriz es nula o no cuadrada: IllegalArgumentException.
-// TODO: escribir el Javadoc de la clase, del método, sus parámetros y retorno.
+/**
+ * @author joreokjudev
+ * @version 1.0.0
+ */
 public final class Ejercicio17Diagonal {
     private Ejercicio17Diagonal() { }
 
     // Contrato: Suma diagonal principal de una matriz cuadrada, incluida la matriz 0x0. Si matriz es nula o no cuadrada: IllegalArgumentException.
     public static int sumarDiagonal(int[][] matriz) {
-        throw new UnsupportedOperationException("Pendiente de implementar");
+        if (matriz  == null) {
+            throw new IllegalArgumentException();
+        }
+        int filas = matriz.length;
+        int resultado = 0;
+        for (int i = 0; i < filas; i++) {
+            //int[] fila = matriz[i];
+            if (matriz[i] == null || matriz[i].length != filas) {
+                throw new IllegalArgumentException();
+            }
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (i == j) {
+                    resultado += matriz[i][j];
+                }
+            }
+        }
+        return resultado;
     }
 }
